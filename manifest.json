@@ -6,7 +6,7 @@
   },
   "background": {
     "persistent": false,
-    "scripts": ["contextmenus.js"]
+    "scripts": ["js/contextmenus.js"]
   },
   "name": "URL Shortener (goo.gl)",
   "short_name":"Shorten URL",
