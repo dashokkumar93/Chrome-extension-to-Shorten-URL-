@@ -1,23 +1,22 @@
 {
-/*Icons need for the extension.*/
+       
   "icons": {
     "16": "icon.png", "48": "icon48.png",
           "128": "icon128.png"
   },
-  /*Background script which runs on all tabs.*/
   "background": {
     "persistent": false,
     "scripts": ["js/contextmenus.js"]
   },
-  "name": "URL Shortener (goo.gl)",/*Name*/
-  "short_name":"Shorten URL",//Short name of the extension*/
-  "version": "1.1.1",/*Verion name*/
-  "manifest_version": 2,/*Verison of the manifest file*/
-  "description": "Shortern the page/selected URL",/*Description*/
+  "name": "URL Shortener (goo.gl)",
+  "short_name":"Shorten URL",
+  "version": "1.1.1",
+  "manifest_version": 2,
+  "description": "Shortern the page/selected URL",
   "browser_action": {
     "default_icon": "icon.png",
-    "default_popup": "popup.html"/*Html file to be opened on clicking the chrome extension icon.*/
+    "default_popup": "popup.html"
 
   },
-  "permissions": ["tabs", "<all_urls>", "contextMenus","clipboardWrite"]/*Permisions need for running the extension*/
+  "permissions": ["tabs", "<all_urls>", "contextMenus","clipboardWrite"]  
 }
