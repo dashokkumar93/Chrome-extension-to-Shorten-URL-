@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html style=''>
+<head>
+  <script src='jquery-3.2.1.min.js'></script>
+  <script src='mdl.js'></script>
+<script src='popup.js'></script><script src="dist/clipboard.min.js"></script>
+<link href="mdl.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+  <style>
+  .mdl-button
+  {
+    text-transform: none;
+  }
+  body{
+    width:300px;
+  }
+  .mdl-card
+  {
+    min-height:110px;
+  }
+  </style>
+    <div class="demo-card-square mdl-card mdl-shadow--2dp">
+        
+            <div class="mdl-card__supporting-text"id='message'>
+                Shortening the current page url....
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a id="copy"  disabled=disabled class="mdl-button mdl-button--raised mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                  Copy Shortened URL
+              </a>
+            </div>
+          </div>
+</body>
+</html>
