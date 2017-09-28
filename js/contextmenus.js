@@ -19,7 +19,7 @@ function onClickHandler(info, tab){
 
 if(info.menuItemId==="shorternlink"){
   var xhr = new XMLHttpRequest();
-  xhr.open("POST", "https://www.googleapis.com/urlshortener/v1/url?key=AIzaSyAbe4PseHnMH6dC3j_hbn7lRLuhh07xOqQ", true);
+  xhr.open("POST", "https://www.googleapis.com/urlshortener/v1/url?key="+{APIKEY}, true);
   xhr.setRequestHeader('Content-Type', 'application/json');
   xhr.send(JSON.stringify({
       longUrl:info.linkUrl
